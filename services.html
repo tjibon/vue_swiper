@@ -1,0 +1,2459 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/media.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="icon" href="images/icon.png" type="images/png" sizes="16x16">
+    <title>Rongdhanu IT | Services</title>
+</head>
+
+<body>
+    <div id="app">
+        <v-app>
+            <template>
+                <v-app id="inspire">
+					<div class="top-bar">		
+						<v-container class="">
+	  						<v-row >
+								<v-col sm="8">
+		  							<v-sheet color="#23003B" class="bg-transparent">
+										<div class="top_left d-flex justify-start">
+											<v-sheet><v-icon>phone</v-icon> (+381) 11 123 4567 </v-sheet>
+											<v-sheet><v-icon>mdi-map-marker</v-icon>15 St Margarets, NY 10033 </v-sheet>
+											<v-sheet><v-icon>mdi-timer</v-icon>Mon - Sat 8.00 - 18.00 Sunday CLOSED</v-sheet>
+										</div>
+		  							</v-sheet>
+								</v-col>
+								
+								<v-col sm="4">
+		  							<v-sheet color="#23003B" class="">
+										<div class="top_right d-flex justify-end">
+											<a href="#"><v-icon>mdi-facebook</v-icon></a>
+											<a href="#"><v-icon>mdi-twitter</v-icon></a>
+											<a href="#"><v-icon>mdi-facebook</v-icon></a>
+											<a href="#"><v-icon>mdi-twitter</v-icon></a>
+										</div>
+		  							</v-sheet>
+								</v-col>
+	  						</v-row>
+						</v-container>
+					</div>
+                   <div class="left_navbar">
+					  <v-navigation-drawer
+						:clipped="$vuetify.breakpoint.lgAndUp"
+						v-model="drawer"
+						fixed
+						app
+					  >
+					  <div class="hidden-md-and-up mobile_menu">
+						<a href="index.html">
+					 	  <v-list>
+							  <v-list-tile>
+								<v-list-tile-content>
+								  <v-list-tile-title>
+									Home
+								  </v-list-tile-title>
+								</v-list-tile-content>
+							  </v-list-tile>
+						  </v-list>
+						</a>
+						<a href="about.html">
+					  		<v-list>
+							  <v-list-tile>
+								<v-list-tile-content>
+								  <v-list-tile-title>
+									About
+								  </v-list-tile-title>
+								</v-list-tile-content>
+							  </v-list-tile>
+						   </v-list>
+						</a>
+						<a href="marketing.html">
+					  	  <v-list>
+							  <v-list-tile>
+								<v-list-tile-content>
+								  <v-list-tile-title>
+									Marketing
+								  </v-list-tile-title>
+								</v-list-tile-content>
+							  </v-list-tile>
+						  </v-list>
+						</a>  
+						<a href="gallery.html">
+					  		<v-list>
+							  <v-list-tile>
+								<v-list-tile-content>
+								  <v-list-tile-title>
+									Gallery
+								  </v-list-tile-title>
+								</v-list-tile-content>
+							  </v-list-tile>
+						    </v-list>
+						</a>
+						<a href="pricing.html">
+					  		<v-list>
+							  <v-list-tile>
+								<v-list-tile-content>
+								  <v-list-tile-title>
+									Pricing
+								  </v-list-tile-title>
+								</v-list-tile-content>
+							  </v-list-tile>
+						    </v-list>
+						</a>
+						<a href="news.html">
+					  		<v-list>
+							  <v-list-tile>
+								<v-list-tile-content>
+								  <v-list-tile-title>
+									News
+								  </v-list-tile-title>
+								</v-list-tile-content>
+							  </v-list-tile>
+						    </v-list>
+						</a> 
+						<a href="contact.html">
+					  		<v-list>
+							  <v-list-tile>
+								<v-list-tile-content>
+								  <v-list-tile-title>
+									Contact
+								  </v-list-tile-title>
+								</v-list-tile-content>
+							  </v-list-tile>
+							</v-list>
+						</a> 
+						<v-divider></v-divider>
+					  </div>
+
+						</v-navigation-drawer>
+					<v-container>
+						<v-toolbar
+						  :clipped-left="$vuetify.breakpoint.lgAndUp"
+						  dark
+						  app
+						  fixed
+						  class="theme_toolbar"
+						 >
+
+						 
+						  
+						  <h1 >
+							  <img src="images/logo.png" width="100px" class="main-logo" />
+						  </h1>
+
+						  <v-spacer></v-spacer>
+							<div class="menu_item hidden-sm-and-down pa-0">
+							  <a href="./index.html"><v-btn elevation="0">HOME</v-btn></a>          
+							  <a href="about.php"><v-btn elevation="0">ABOUT Us</v-btn></a>  
+							  <a href="./services.html"><v-btn elevation="0"> Services</v-btn></a>  
+							  <a href=""><v-btn  elevation="0">Portfolio</v-btn></a>
+							  <a href=""><v-btn elevation="0">Blog</v-btn></a>
+							  <a href="./login.html"><v-btn  elevation="0">Sign In</v-btn></a>
+							  <a href="./signup.html"><v-btn elevation="0">Create Account</v-btn></a>
+							  <a href="contact.php"><v-btn elevation="0">CONTACT US</v-btn></a>
+							  <v-btn icon>
+								<v-icon>mdi-magnify</v-icon>
+							  </v-btn>
+							</div>
+							<v-toolbar-title  class="ml-0">
+							<v-btn class=" hidden-md-and-up" color="pink" dark  @click.stop="drawer = !drawer">
+							  <v-icon>dehaze</v-icon>
+							</v-btn>               
+						  </v-toolbar-title>
+						</v-toolbar>
+					</v-container>
+                  </div>
+                  
+                  <v-content>
+					<!--- carousel-section start ----
+						<section class="carouel">
+							<v-carousel :cycle="true">
+								<v-carousel-item src="images/slider-img1.png">
+									<div class="layer">
+										<v-container fill-height>
+										  <v-layout column justify-center>
+											<h1 class="display-2 mb-4 white--text"> Empowering Your Online Presence</h1>
+											<p class="body-1 grey--text text--lighten-4 text-left mb-10"> We are specialized in custom Business Software and E-commerce solution.</p>
+											<v-btn class="theme_button">Get Started</v-btn>
+										  </v-layout>
+										</v-container>
+									</div>
+								  </v-carousel-item>
+								  <v-carousel-item src="images/slider-img2.png">
+									<div class="layer">
+										<v-container fill-height>
+										  <v-layout column justify-center>
+											<h1 class="display-2 mb-4 white--text"> Empowering Your Online Presence</h1>
+											<p class="body-1 grey--text text--lighten-4 text-left mb-10"> We are specialized in custom Business Software and E-commerce solution.</p>
+											<v-btn class="theme_button">Get Started</v-btn>
+										  </v-layout>
+										</v-container>
+									</div>
+								  </v-carousel-item>
+								
+								  <v-carousel-item src="images/slider-img3.png">
+									<div class="layer">
+										<v-container fill-height>
+										  <v-layout column justify-center>
+											<h1 class="display-2 mb-4 white--text"> Empowering Your Online Presence</h1>
+											<p class="body-1 grey--text text--lighten-4 text-left mb-10"> We are specialized in custom Business Software and E-commerce solution.</p>
+											<v-btn class="theme_button">Get Started</v-btn>
+										  </v-layout>
+										</v-container>
+									</div>
+								  </v-carousel-item>
+						   </v-carousel>
+						</section>
+					--- carousel-section end ---->
+
+						<!--
+						<v-carousel :cycle="true" class="slider">
+							  <v-carousel-item src="images/banner.jpg">
+								<div class="layer">
+									<v-container fill-height>
+									  <v-layout column justify-center>
+										<h1 class="display-2 mb-4 white--text"> Empowering Your Online Presence</h1>
+										<p class="body-1 grey--text text--lighten-4 text-left mb-10"> We are specialized in custom Business Software and E-commerce solution.</p>
+										<v-btn class="theme_button">Get Started</v-btn>
+									  </v-layout>
+									</v-container>
+								</div>
+							  </v-carousel-item>
+						 </v-carousel>
+						 -->
+                   		
+                   		
+                   	
+
+						
+						
+
+						<!--- feature-area end  --->
+
+
+					<!------------- portfolio-area start ---------------
+					<section class="portfolio-area">
+						<v-container>
+							<v-layout>
+								<v-row>
+									<v-col>
+										<v-card flat>
+											<v-card-text class="section-title">
+												<h1 class="display-1"> Portfolio </h1>
+												<h3 class="">We Created. Creative Project </h3>
+											</v-card-text>
+										  </v-card>
+									</v-col>
+								</v-row>
+							</v-layout>	
+							<v-layout>
+								<v-row>
+									
+								
+									<carouel class="portfolio-list">
+											<v-card flat class="single-portfolio">
+												<a href="#">
+													<v-responsive>
+														<v-img src="./images/portfolio/1-8-640x640.jpg"></v-img>
+													</v-responsive>
+													<v-card-text class="portfolio-content">
+														<v-card-title class="porject-title">Helping Hand Render</v-card-title>
+														<v-card-subtitle>Development</v-card-subtitle>
+														
+													</v-card-text>	
+												</a>
+											</v-card>
+											<v-card flat class="single-portfolio">
+												<a href="#">
+													<v-responsive>
+														<v-img src="./images/portfolio/3d-retro-tv_preview.jpg"></v-img>
+													</v-responsive>
+													<v-card-text class="portfolio-content">
+														<v-card-title class="porject-title">Old TV 3D render for Video</v-card-title>
+														<v-card-subtitle>Development</v-card-subtitle>
+														
+													</v-card-text>	
+												</a>
+											</v-card>
+											<v-card flat class="single-portfolio">
+												<a href="#">
+													<v-responsive>
+														<v-img src="./images/portfolio/dribbble-cassette-tape-mockup.jpg"></v-img>
+													</v-responsive>
+													<v-card-text class="portfolio-content">
+														<v-card-title class="porject-title">Helping Hand Render</v-card-title>
+														<v-card-subtitle>Development</v-card-subtitle>
+														
+													</v-card-text>	
+												</a>
+											</v-card>
+											<v-card flat class="single-portfolio">
+												<a href="#">
+													<v-responsive>
+														<v-img src="./images/portfolio/gamepad.jpg"></v-img>
+													</v-responsive>
+													<v-card-text class="portfolio-content">
+														<v-card-title class="porject-title">Gamepad Render</v-card-title>
+														<v-card-subtitle>Development</v-card-subtitle>
+														
+													</v-card-text>	
+												</a>
+											</v-card>
+											<v-card flat class="single-portfolio">
+												<a href="#">
+													<v-responsive>
+														<v-img src="./images/portfolio/dribble_bridge_s.jpg"></v-img>
+													</v-responsive>
+													<v-card-text class="portfolio-content">
+														<v-card-title class="porject-title">Gamepad Render</v-card-title>
+														<v-card-subtitle>Development</v-card-subtitle>
+														
+													</v-card-text>	
+												</a>
+											</v-card>
+											<v-card flat class="single-portfolio">
+												<a href="#">
+													<v-responsive>
+														<v-img src="./images/portfolio/hearts_magnet Concept.jpg"></v-img>
+													</v-responsive>
+													<v-card-text class="portfolio-content">
+														<v-card-title class="porject-title">Gamepad Render</v-card-title>
+														<v-card-subtitle>Development</v-card-subtitle>
+														
+													</v-card-text>	
+												</a>
+											</v-card>
+											<v-card flat class="single-portfolio">
+												<a href="#">
+													<v-responsive>
+														<v-img src="./images/portfolio/telegram.jpg"></v-img>
+													</v-responsive>
+													<v-card-text class="portfolio-content">
+														<v-card-title class="porject-title">Gamepad Render</v-card-title>
+														<v-card-subtitle>Development</v-card-subtitle>
+														
+													</v-card-text>	
+												</a>
+											</v-card>
+									</div>
+								
+								</v-row>
+							</v-layout>
+								
+							
+						</v-container>
+
+					</section>
+					------------- portfolio-area end  --------------->
+
+				
+	<!------ case-study section start ---->
+		<section class="case-study-area main-service section-padding">
+			<v-layout>
+				<v-row>
+					<v-col>
+						<v-card flat>
+							<v-card-text class="section-title text-center">
+								<h1 class="">Services</h1>
+								<h3 class="">Custom Software Development Services</h3>
+							</v-card-text>
+						</v-card>
+					</v-col>
+				</v-row>
+				</v-layout>
+				<!-- casestudy-box start -->
+					<v-container>
+						<div class="case-study-box">
+							<v-row>
+								<v-col  sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col   sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+											
+											
+							</v-row>
+							<v-row>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+											
+											
+							</v-row>
+							<v-row>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+											
+											
+							</v-row>
+							<v-row>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+								<v-col sm="6" md="3">
+									
+									<v-card>
+										<!---service-card-carousel start -->
+										<template>
+											<v-hover
+       									 		v-slot="{ hover }"
+        										open-delay="100"
+      										>
+											  <v-carousel height="200" :show-arrows="hover">
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-1.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-2.jpg"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											  	<v-carousel-item>
+													<v-responsive>
+														<a href="./services-inner.html"><v-img src="./images/services/s-3.png"></v-img></a>
+													</v-responsive> 
+												</v-carousel-item>
+											</v-carousel>
+											</v-hover>
+											<v-card-item class="d-flex s-box-content">
+												<v-avatar>
+													<v-img src="./images/author/testimonial-1.jpg"></v-img>
+												</v-avatar>
+      											<v-card-title class="px-0">
+													<a href="#">Cafe Badilico</a>
+													<span>Level 2 Seller</span>
+												
+												</v-card-title>
+    										</v-card-item>
+											<v-card-item class="s-box-content">
+												<v-card-subtitle>
+													<a href="./services-inner.html">I will create a custom, dynamic 2d text animation video</a>	
+													
+												  </v-card-subtitle>
+											</v-card-item>
+											<v-card-text class="service-rating">
+      											<v-row>
+												
+        											<v-rating
+          												:model-value="1"
+													  	background-color="#23003B"
+													  	color="#23003B"
+														length="1"
+														size="20"
+														color="green"
+          												half-increments
+          												readonly
+          												size="medium">
+													</v-rating>
+													<div class="rating-text">
+          												4.5 (413)
+        											</div>
+												
+      											</v-row>
+											  	
+    										</v-card-text>
+											<v-divider></v-divider>
+											<v-card-actions class="d-flex justify-space-between s-bottom">
+
+												<v-btn text>
+													<a href="#" class="more-btn"><span><i class="fas fa-heart"></i></span></a>
+												</v-btn>
+												
+												<v-btn text class="mt-3 s-btn">
+													<p>STARTING AT<span>$75</span></p>
+													
+												</v-btn>
+											</v-card-actions>
+											
+										
+									
+										</template>
+  									</v-card>
+								</v-col>
+											
+											
+							</v-row>
+						</div>
+									
+								</v-container>
+									
+								<!-- casestudy-box end -->
+							</v-layout>
+						</section>	
+					<!------ case-study section start ---->
+
+					
+
+
+                  		<!----work-------
+                  		<section class="work">
+							<v-container>
+								<v-tabs vertical>
+								    <v-tab>
+								  		<div class="icon_box">
+								  			<div class="icon_bg">
+								  				<v-icon>adb</v-icon>
+								  			</div>
+								  		</div>
+									    <div style="color:red;">Software Development</div>
+									</v-tab>
+									
+									<v-tab>
+									  <div class="icon_box">
+								  			<div class="icon_bg">
+								  				<v-icon>headset</v-icon>
+								  			</div>
+								  		</div>
+									    <div style="color:red;">E-Commerce Solution</div>
+									</v-tab>
+									
+									<v-tab>
+									  <div class="icon_box">
+								  			<div class="icon_bg">
+								  				<v-icon>local_library</v-icon>
+								  			</div>
+								  		</div>
+									    <div style="color:red;">Web Development</div>
+									</v-tab>
+
+									<v-tab-item>
+									  <v-card flat>
+										<v-card-text>
+										  <h1 class="display-1">  Software Development  </h1>
+										  <h3 class="text-uppercase title_2 font-weight-bold mb-1"> SERVICES </h3>
+										  <p class="body-1 grey--text text--darken-1 text-left mb-10"> 
+											  A promising software developer team works to build custom made software for empower business world wide. <br>
+										      We do all the process of programming, testing, and bug fixing involved in creating and maintaining applications and frameworks.		
+										  </p>
+										  <v-btn class="theme_button">Discover More</v-btn>
+										  <div class="tab_service_bottom">
+											  <v-flex>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Enterprise Resource Planning</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Point Of Sale</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>School Management System</p>
+											  </v-flex>
+											  <v-flex>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Customer Relationship Management</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>HR Management</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Accounting Software</p>
+											  </v-flex>
+										  </div>
+										</v-card-text>
+									  </v-card>
+									</v-tab-item>
+									<v-tab-item>
+									  <v-card flat>
+										<v-card-text>
+										  <h1 class="display-1"> E-Commerce Solution </h1>
+										  <h3 class="text-uppercase title_2 font-weight-bold mb-1"> SERVICES </h3>
+										  <p class="body-1 grey--text text--darken-1 text-left mb-10"> E-Commerce is a transaction of buying or selling online drawing on technologies such as Internet Marketing, Inventory Management Systems etc</p>
+										  <v-btn class="theme_button">Discover More</v-btn>
+										  <div class="tab_service_bottom">
+											  <v-flex>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Trendy Design</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Admin Panel</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Modern Checkout System</p>
+											  </v-flex>
+											  <v-flex>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Payment Gateway</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>SEO</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>optimization</p>
+											  </v-flex>
+										  </div>
+										</v-card-text>
+									  </v-card>
+									</v-tab-item>
+									
+									<v-tab-item>
+									  <v-card flat>
+										<v-card-text>
+										  <h1 class="display-1">  Web Development </h1>
+										  <h3 class="text-uppercase title_2 font-weight-bold mb-1"> SERVICES </h3>
+										  <p class="body-1 grey--text text--darken-1 text-left mb-10"> We provide complete Website Development service. Our expert web developers can fulfill all your requirements within the website. We create SEO-friendly and conversion-optimized websites that will help your brand to grow fast. We believe in action rather than words. </p>
+										  <v-btn class="theme_button">Discover More</v-btn>
+										  <div class="tab_service_bottom">
+											  <v-flex>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>WordPress</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Laravel</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Vue JS</p>
+											  </v-flex>
+											  <v-flex>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>PHP</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Javascript</p>
+												  <p class="subtitle-1"><v-icon class="mr-3">done</v-icon>Node JS</p>
+											  </v-flex>
+										  </div>
+										</v-card-text>
+									  </v-card>
+									</v-tab-item>
+								</v-tabs>
+
+							</v-container>
+                   		</section>
+                   		
+                   		<!----feature
+                   		<section class="feature">
+                   			<v-container grid-list-lg>
+								<v-flex class="title_box">
+									<h1 class="text-uppercase title_1 headline font-weight-bold mb-2 text-center"> Theme Features </h1>
+									<div class="title_border mx-auto"></div>
+									<p class="mx-auto grey--text text--darken-1 text-center my-5">
+										 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in! Asperiores, impedit libero. Veniam rerum saepe unde nihil possimus quibusdam esse accusamus mollitia magni fuga. 
+									</p>
+								</v-flex>
+								<v-layout row wrap>
+									<v-flex xs12 sm12 md6>
+										<v-flex class="feature_box">
+											<div class="icon_box mr-4">
+												<div class="icon_bg">
+													<v-icon>brush</v-icon>
+												</div>
+											</div>
+											<div class="feature_text">
+												<h3 class="text-uppercase title_2 font-weight-bold mb-1">PIXEL PERFECT DESIGN</h3>
+												<p class="grey--text text--darken-1 text-left mb-0"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut! </p>
+											</div>
+								  		</v-flex>
+								  		
+								  		<v-flex class="feature_box mt-5">
+											<div class="icon_box mr-4">
+												<div class="icon_bg">
+													<v-icon>border_color</v-icon>
+												</div>
+											</div>
+											<div class="feature_text">
+												<h3 class="text-uppercase title_2 font-weight-bold mb-1">EASILY CUSTOMIZABLE</h3>
+												<p class="grey--text text--darken-1 text-left mb-0"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut! </p>
+											</div>
+								  		</v-flex>
+								  		
+								  		<v-flex class="feature_box mt-5">
+											<div class="icon_box mr-4">
+												<div class="icon_bg">
+													<v-icon>adb</v-icon>
+												</div>
+											</div>
+											<div class="feature_text">
+												<h3 class="text-uppercase title_2 font-weight-bold mb-1">SEO OPTIMIZED</h3>
+												<p class="grey--text text--darken-1 text-left mb-0"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut! </p>
+											</div>
+								  		</v-flex>
+									</v-flex>
+									
+									<v-flex xs12 sm12 md6>
+										<v-flex class="feature_box">
+											<div class="icon_box mr-4">
+												<div class="icon_bg">
+													<v-icon>tablet_android</v-icon>
+												</div>
+											</div>
+											<div class="feature_text">
+												<h3 class="text-uppercase title_2 font-weight-bold mb-1">RETINA READY</h3>
+												<p class="grey--text text--darken-1 text-left mb-0"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut! </p>
+											</div>
+								  		</v-flex>
+								  		
+								  		<v-flex class="feature_box mt-5">
+											<div class="icon_box mr-4">
+												<div class="icon_bg">
+													<v-icon>theaters</v-icon>
+												</div>
+											</div>
+											<div class="feature_text">
+												<h3 class="text-uppercase title_2 font-weight-bold mb-1">IMAGE PARALLAX</h3>
+												<p class="grey--text text--darken-1 text-left mb-0"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut! </p>
+											</div>
+								  		</v-flex>
+								  		
+								  		<v-flex class="feature_box mt-5">
+											<div class="icon_box mr-4">
+												<div class="icon_bg">
+													<v-icon>verified_user</v-icon>
+												</div>
+											</div>
+											<div class="feature_text">
+												<h3 class="text-uppercase title_2 font-weight-bold mb-1">24/7 SUPPORT</h3>
+												<p class="grey--text text--darken-1 text-left mb-0"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut! </p>
+											</div>
+								  		</v-flex>
+									</v-flex>
+								</v-layout>
+							</v-container>
+						   </section>
+						------->   
+                   		
+                   		<!----portfolio------->
+                   	
+                   		
+                   		<!---Price table
+                   		
+                   		<section class="price_table">
+                   			<v-container grid-list-lg>
+                   				<v-flex class="title_box">
+									<h1 class="text-uppercase title_1 headline font-weight-bold mb-2 white--text text-center">PRICE TABLE</h1>
+									<div class="title_border mx-auto"></div>
+									<p class="mx-auto  text-center my-5">
+										 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in! Asperiores, impedit libero. Veniam rerum saepe unde nihil possimus quibusdam esse accusamus mollitia magni fuga. 
+									</p>
+								</v-flex>
+								<v-layout row wrap>
+									<v-flex xs12 sm12 md4>
+										<div class="price_box_header">
+											<div class="price_box_header_text">
+												<h3 class="text-uppercase title_2 font-weight-bold text-center">BASIC</h3>
+												<h1 class="text-uppercase title_1 headline font-weight-bold text-center">$100<span>/Month</span></h1>
+												<div class="box"></div>
+											</div>
+											
+										</div>
+										<div class="price_box_info py-5">
+											<p><v-icon class="mr-1">done</v-icon>Priority Support</p>
+											<p><v-icon class="mr-1">done</v-icon>Business testing</p>
+											<p><v-icon class="mr-1">done</v-icon>Feature tools</p>
+											<p><v-icon class="mr-1">done</v-icon>Lifetime services</p>
+											<p><v-icon class="mr-1">done</v-icon>Total security</p>
+											<div class="price_btn_box">
+												<button type="button" class="price_btn">Read More</button>
+											</div>
+										</div>
+									</v-flex>
+									<v-flex xs12 sm12 md4>
+										<div class="price_box_header">
+											<div class="price_box_header_text">
+												<h3 class="text-uppercase title_2 font-weight-bold text-center">STANDARD</h3>
+												<h1 class="text-uppercase title_1 headline font-weight-bold text-center">$80<span>/Month</span></h1>
+												<div class="box"></div>
+											</div>
+											
+										</div>
+										<div class="price_box_info py-5">
+											<p><v-icon class="mr-1">done</v-icon>Priority Support</p>
+											<p><v-icon class="mr-1">done</v-icon>Business testing</p>
+											<p><v-icon class="mr-1">done</v-icon>Feature tools</p>
+											<p><v-icon class="mr-1">done</v-icon>Lifetime services</p>
+											<p><v-icon class="mr-1">done</v-icon>Total security</p>
+											<div class="price_btn_box">
+												<button type="button" class="price_btn">Read More</button>
+											</div>
+										</div>
+									</v-flex>
+									<v-flex xs12 sm12 md4>
+										<div class="price_box_header">
+											<div class="price_box_header_text">
+												<h3 class="text-uppercase title_2 font-weight-bold text-center">PREMIUM</h3>
+												<h1 class="text-uppercase title_1 headline font-weight-bold text-center">$120<span>/Month</span></h1>
+												<div class="box"></div>
+											</div>
+											
+										</div>
+										<div class="price_box_info py-5">
+											<p><v-icon class="mr-1">done</v-icon>Priority Support</p>
+											<p><v-icon class="mr-1">done</v-icon>Business testing</p>
+											<p><v-icon class="mr-1">done</v-icon>Feature tools</p>
+											<p><v-icon class="mr-1">done</v-icon>Lifetime services</p>
+											<p><v-icon class="mr-1">done</v-icon>Total security</p>
+											<div class="price_btn_box">
+												<button type="button" class="price_btn">Read More</button>
+											</div>
+										</div>
+									</v-flex>
+								</v-layout>
+							</v-container>
+						</section>
+						--------->
+                   		
+                   		<!---info---------
+                   		
+                   		<section style="background-color:#fd5616;">
+                   			<v-container grid-list-lg>
+                   				<v-layout row wrap justify-center align-center>
+									<v-flex xs12 sm12 md8>
+										<h3 class="title font-weight-bold mb-2 text-left ">
+											 HAVE QUESTIONS? LET US KNOW! 
+										</h3>
+										<p class="body-1 white--text text-left mb-0"> Our dedicated support team is ready to give you the best solution 24/7.</p>
+									</v-flex>
+									<v-flex xs12 sm12 md4 class="text-center">
+										<v-btn class="theme_button">Contact us</v-btn>
+									</v-flex>
+								</v-layout>
+                   			</v-container>
+                   		</section>
+                   		
+                   		<!---Team-
+                   		
+                   		<section class="team">
+                   			<v-container grid-list-lg>
+                   				<v-flex class="title_box">
+									<h1 class="text-uppercase title_1 headline font-weight-bold mb-2 white--text text-center">Our Team</h1>
+									<div class="title_border mx-auto"></div>
+									<p class="mx-auto  text-center my-5">
+										 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in! Asperiores, impedit libero. Veniam rerum saepe unde nihil possimus quibusdam esse accusamus mollitia magni fuga. 
+									</p>
+								</v-flex>
+								<v-layout row wrap>
+									<v-flex xs12 sm12 md6>
+										<v-flex d-flex justify-center align-center>
+											<div class="member_info">
+												<h3 class="text-uppercase title font-weight-bold white--text text-left pr-4">Shakil Zaman</h3>
+												<p class="body-1 white--text text-left mb-0 pr-4">Web Developer</p>
+												<hr role="separator" aria-orientation="horizontal" class="my-2 v-divider">
+												<ul>
+													<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+													<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+													<li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+												</ul>
+											</div>
+											<div class="member_img">
+												<v-img src="images/t1.jpg" class="team_img"></v-img>
+											</div>
+										</v-flex>
+									</v-flex>
+									
+									<v-flex xs12 sm12 md6>
+										<v-flex d-flex justify-center align-center>
+											<div class="member_img">
+												<v-img src="images/t2.jpg" class="team_img"></v-img>
+											</div>
+											
+											<div class="member_info">
+												<h3 class="text-uppercase title font-weight-bold white--text text-right pl-4">Kawsar Opu</h3>
+												<p class="body-1 white--text text-right mb-0 pl-4">Managing Director</p>
+												<hr role="separator" aria-orientation="horizontal" class="my-2 v-divider">
+												<ul class="text-right">
+													<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+													<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+													<li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+												</ul>
+											</div>
+										</v-flex>
+									</v-flex>
+									
+									<v-flex xs12 sm12 md6>
+										<v-flex d-flex justify-center align-center>
+											<div class="member_info">
+												<h3 class="text-uppercase title font-weight-bold white--text text-left pr-4">Hafizur Rahman</h3>
+												<p class="body-1 white--text text-left mb-0 pr-4">Web Designer</p>
+												<hr role="separator" aria-orientation="horizontal" class="my-2 v-divider">
+												<ul>
+													<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+													<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+													<li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+												</ul>
+											</div>
+											<div class="member_img">
+												<v-img src="images/t3.jpg" class="team_img"></v-img>
+											</div>
+										</v-flex>
+									</v-flex>
+									
+									<v-flex xs12 sm12 md6>
+										<v-flex d-flex justify-center align-center>
+											<div class="member_img">
+												<v-img src="images/t4.jpg" class="team_img"></v-img>
+											</div>
+											
+											<div class="member_info">
+												<h3 class="text-uppercase title font-weight-bold white--text text-right pl-4">Debashis Ghosh</h3>
+												<p class="body-1 white--text text-right mb-0 pl-4">Marketing</p>
+												<hr role="separator" aria-orientation="horizontal" class="my-2 v-divider">
+												<ul class="text-right">
+													<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+													<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+													<li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+												</ul>
+											</div>
+										</v-flex>
+										<div class="team_bg">
+										<h1 class=" headline font-weight-bold mb-0 text-center">Team Members</h1>
+									</div>
+									</v-flex>
+									
+								</v-layout>
+							</v-container>
+						</section>
+						-------->
+                   		
+                   		<!---review---------
+                   		
+                   		<section class="review">
+                   			<v-container>
+                   				<v-flex class="title_box">
+									<img src="images/comment.png" class="mb-1">
+									<h1 class="text-uppercase title_1 headline font-weight-bold mb-2 text-center">Customer Reviews</h1>
+									<div class="title_border mx-auto"></div>
+								</v-flex>
+								<v-carousel :cycle="true">
+									  <v-carousel-item>
+									  	<v-flex>
+									  		<p class="body-1  d-block grey--text text--darken-1">
+									  		<em>"All the stuff in the code is working as described. Great customer support and quick replies. Product worths every penny. I will be waiting for other projects.
+
+												Thanks."</em>
+									  		</p>
+									  		<img src="images/r1.jpg" class="client_img">
+									  		<h3 class="title font-weight-bold mt-5"> Henry Jakobs </h3>
+									  		<h6 class="body-2 font-weight-regular mt-2 grey--text"> DIRECTOR - Neo Branding</h6>
+									  	</v-flex>
+									  </v-carousel-item>
+									  
+									  <v-carousel-item>
+									  	<v-flex>
+									  		<p class="body-1  d-block grey--text text--darken-1">
+									  		<em>"This application is great, the documentation covers the needed items to get started and the application is well constructed. The support was really fast and offered great help with answering a question I had. Thank you.."</em>
+									  		</p>
+									  		<img src="images/r2.jpg" class="client_img">
+									  		<h3 class="title font-weight-bold mt-5">Patricia Farnandez</h3>
+									  		<h6 class="body-2 font-weight-regular mt-2 grey--text"> CEO - Dreams Maker INC </h6>
+									  	</v-flex>
+									  </v-carousel-item>
+								 </v-carousel>
+							</v-container>
+                   		</section>
+                   		
+                   		---client---------
+                   		<section class="client">
+                   			<v-container grid-list-lg>
+                   				<v-flex class="title_box">
+									<h1 class="text-uppercase title_1 headline font-weight-bold mb-2 text-center">WHO'S USING Rongdhanu IT?</h1>
+									<div class="title_border mx-auto"></div>
+								</v-flex>
+                  			
+                  				<v-layout row wrap>
+									<v-flex xs12 sm6 md2>
+										<img src="images/c1.jpg">
+									</v-flex>
+									
+									<v-flex xs12 sm6 md2>
+										<img src="images/c2.jpg">
+									</v-flex>
+									
+									<v-flex xs12 sm6 md2>
+										<img src="images/c3.jpg">
+									</v-flex>
+									
+									<v-flex xs12 sm6 md2>
+										<img src="images/c4.jpg">
+									</v-flex>
+									
+									<v-flex xs12 sm6 md2>
+										<img src="images/c5.jpg">
+									</v-flex>
+									
+									<v-flex xs12 sm6 md2>
+										<img src="images/c6.jpg">
+									</v-flex>
+								</v-layout>
+                   			</v-container>
+                   		</section>
+                   		
+                   		<!---blog--------->
+                   		
+                   		
+                   		<!---social_media---------
+                   		
+                   		<section class="social_media">
+                   			<v-container>
+                   				<v-flex class="title_box">
+									
+									<h1 class="text-uppercase title_1 headline font-weight-bold mb-2 text-center">SOCIAL MEDIA</h1>
+									<div class="title_border mx-auto"></div>
+									<p class="mx-auto grey--text text--lighten-1 text-center my-5">
+										Find us on Facebook 
+									</p>
+									<div>
+										<a href="https://www.facebook.com/rongdhanuit/" target="_blank" class="block mb-8"> https://www.facebook.com/rongdhanuit/ </a>
+										<v-btn  class="theme_button">Follow us<v-icon right dark>launch</v-icon></v-btn>
+									</div>
+								</v-flex>
+							</v-container>
+						</section>
+                   
+                   		--subscribe--------->
+                   		
+                   		<section class="subscribe">
+                   			<v-container grid-list-lg>
+                   				<v-layout row wrap justify-center align-center>
+									<v-flex  class="text-center">
+										<div class="subscribe-icon">
+											<i class="fas fa-paper-plane"></i>
+										</div>
+										<div class="subscribe-heading">
+											<h3>Subscribe to get information, latest news
+												and other interesting offers</h3>
+										</div>
+				
+									</v-flex>
+									</v-layout>
+									<v-layout class="subscrib-inner">
+										<v-flex class="">
+											<v-text-field
+												label="Your Email Address"
+												single-line
+												outlined
+											  ></v-text-field>
+										</v-flex>
+										
+										<v-flex>
+											<v-btn flat>Subscribe</v-btn>
+										</v-flex>
+									</v-layout>
+									
+								</v-layout>
+							</v-container>
+						</section>
+                   
+                   		<!---contact---------
+                   		
+                   		<section class="contact">
+                   			<v-container grid-list-lg>
+                   				<v-layout row wrap>
+                   					<v-flex xs12 sm6 md6>
+                   						<h1>Rongdhanu IT</h1>
+                   						<h3 class="body-1 font-weight-regular mb-4 white--text">  We Create Software to Empower Businesses  </h3>
+                   						<p class="body-1 grey--text text--lighten-1 text-left"> We are specialized in custom Business Software and E-commerce solution.</p>
+                   						<v-btn class="theme_button my-5">More Info</v-btn>
+                   						
+                   						<v-flex d-flex class="mt-5">
+                   							<div class="px-5">
+                   								<v-icon dark>place</v-icon>
+                   							</div>
+                   							<div>
+                   								<h3 class="text-uppercase title font-weight-bold mb-3 text-left white--text"> Address </h3>
+                   								<p class="body-1 mx-auto grey--text text--lighten-1 text-left mb-0">
+													Dhaka, Bangladesh</p>
+                   							</div>
+                   						</v-flex>
+                   						<hr role="separator" aria-orientation="horizontal" class="my-2 v-divider theme--dark">
+                   						
+                   						<v-flex d-flex class="mt-5">
+                   							<div class="px-5">
+                   								<v-icon dark>smartphone</v-icon>
+                   							</div>
+                   							<div>
+                   								<h3 class="text-uppercase title font-weight-bold mb-3 text-left white--text"> PHONE </h3>
+                   								<p class="body-1 mx-auto grey--text text--lighten-1 text-left mb-0">+8801313487387</p>                   								
+                   							</div>
+                   						</v-flex>
+                   						<hr role="separator" aria-orientation="horizontal" class="my-2 v-divider theme--dark">
+                   						
+                   						<v-flex d-flex class="mt-5">
+                   							<div class="px-5">
+                   								<v-icon dark>mail</v-icon>
+                   							</div>
+                   							<div>
+                   								<h3 class="text-uppercase title font-weight-bold mb-3 text-left white--text"> EMAIL </h3>
+                   								<p class="body-1 mx-auto grey--text text--lighten-1 text-left mb-0">rongdhanuit@gmail.com</p>                   								
+                   							</div>
+                   						</v-flex>
+                   						<hr role="separator" aria-orientation="horizontal" class="my-2 v-divider theme--dark">
+									</v-flex>
+									
+									<v-flex xs12 sm6 md6>
+										<h6 class="body-2 font-weight-regular mb-1 white--text grey--text"> Drop us a Line </h6>
+										<h3 class="text-uppercase title font-weight-bold mb-2 white--text"> MAIL US YOUR MESSAGE </h3>
+										<div class="title_border mr-auto mb-5"></div>
+										
+										<v-text-field
+											label="Name"
+											single-line
+											outlined class="mb-5"
+										  ></v-text-field>
+										  
+										  <v-text-field
+											label="Email"
+											single-line
+											outlined class="mb-5"
+										  ></v-text-field>
+										  
+										  <v-text-field
+											label="Subject"
+											single-line
+											outlined class="mb-5"
+										  ></v-text-field>
+										  
+										  <v-textarea
+											  outlined
+											  label="Message" class="mb-5"
+										  ></v-textarea>
+											
+										  <v-btn class="theme_button my-5">SEND MESSAGE</v-btn>
+									</v-flex>
+								</v-layout>
+							</v-container>
+						</section>
+                    </v-content>
+				---->
+					
+                   <!---footer--------->
+                   
+                    <v-footer>
+						<div class="footer-inner">
+							<v-container>
+								<v-row>
+									<v-flex xs12 sm6 md3 >
+										<div class="footer-widgets">
+											<div class="footer-logo">
+												<img src="./images/icon.png" alt="" class="img-fluid">
+											</div>
+											<p>We have advanced skills & resources to create large-scale solutions as well as guide startups from idea to profit. We a TechnUm!</p>
+											<div class="social-logo">
+												<ul>
+													<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+													<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+													<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+													<li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+													
+												</ul>
+											</div>
+										</div>
+									</v-flex>
+									<v-flex xs12 sm6 md3 >
+										<div class="footer-widgets">
+											<div class="widgets-title">
+												<h3>Services</h3>
+											</div>
+											<ul>
+												<li><a href="#">UI / UX Design</a></li>
+												<li><a href="#">Web & App Development</a></li>
+												<li><a href="#">OA & Software Testing</a></li>
+												<li><a href="#">IT Consulting</a></li>
+												<li><a href="#">Product Design</a></li>
+											</ul>
+										</div>
+									</v-flex>
+									<v-flex xs12 sm6 md3>
+										<div class="footer-widgets">
+											<div class="widgets-title">
+												<h3>USEFUL LINKS</h3>
+											</div>
+											<div class="uselink">
+												<div class="row">
+													<div class="col-lg-6">
+														<ul>
+															<li><a href="#">About</a></li>
+															<li><a href="#">Services</a></li>
+															<li><a href="#">Industries</a></li>
+															<li><a href="#">Solutions</a></li>
+															<li><a href="#">Team</a></li>
+														</ul>
+													</div>
+													<div class="col-lg-6">
+														<ul>
+															<li><a href="#">Careers</a></li>
+															<li><a href="#">Media</a></li>
+															<li><a href="#">Site Map</a></li>
+															<li><a href="#">Cases</a></li>
+															<li><a href="#">Team</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</v-flex>
+									<v-flex xs12 sm6 md3 >
+										<div class="footer-widgets">
+											<h3>Latest News</h3>
+											<div class="latest-news-box">
+												<!--single-news-box start-->
+												<div class="single-news-box">
+													<div class="news-box-img">
+														<img src="./images/thumb-1.jpg" alt="" class="img-fluid">
+													</div>
+													<div class="news-box-content">
+														<div class="news-title">
+															<h3><a href="#">Define World Best IT Solution Technology</a></h3>
+														</div>
+														<div class="news-date">
+															<p>September 20, 2021</p>
+														</div>
+													</div>
+												</div>
+												<!--single-news-box end-->
+												<!--single-news-box start-->
+												<div class="single-news-box">
+													<div class="news-box-img">
+														<v-responsive>
+															<img src="./images/thumb-2.jpg" alt="" class="img-fluid">
+														</v-responsive>
+														
+													</div>
+													<div class="news-box-content">
+														<div class="news-title">
+															<h3><a href="#">5 Easy Ways to Improve Your Web Security</a></h3>
+														</div>
+														<div class="news-date">
+															<p>September 20, 2021</p>
+														</div>
+													</div>
+												</div>
+												<!--single-news-box end-->
+													
+											</div>
+										</div>
+									</v-flex>
+									
+								</v-row>
+							</v-container>
+						</div>
+                     
+                    </v-footer>
+                </v-app>
+            </template>
+        </v-app>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <script src="./js/vue-owl-carousel.min.js"></script>
+  <script src="./js/main.js"></script>
+    <script>
+    new Vue({
+      el: '#app',
+		data: () => ({
+        drawer: false,
+    
+      }),
+      vuetify: new Vuetify(),
+    })
+  </script>
+
+  <script>
+	
+  </script>
+</body>
+
+</html>
